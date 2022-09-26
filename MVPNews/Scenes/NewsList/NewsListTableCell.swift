@@ -32,8 +32,8 @@ final class NewsListTableCell: UITableViewCell {
     
     func setup() {
         setupLayout()
-        accessoryType = .disclosureIndicator
-        selectionStyle = .gray
+        accessoryType = .detailDisclosureButton
+        selectionStyle = .none
         titleLabel.text = "제목"
         descriptionLabel.text = "내용"
         dateLabel.text = "2022.09.26"
