@@ -1,0 +1,6 @@
+framework module Pods_MVPNews_MVPNewsUITests {
+  umbrella header "Pods-MVPNews-MVPNewsUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
