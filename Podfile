@@ -7,6 +7,7 @@ target 'MVPNews' do
 
   # Pods for MVPNews
 pod 'SwiftLint'
+pod "TTGTagCollectionView"
 
   target 'MVPNewsTests' do
     inherit! :search_paths
