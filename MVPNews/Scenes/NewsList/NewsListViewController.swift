@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  NewsListViewController.swift
 //  MVPNews
 //
 //  Created by 정유진 on 2022/09/22.
@@ -21,6 +21,7 @@ final class NewsListViewController: UIViewController {
         tableView.dataSource = presenter
         tableView.register(NewsListTableCell.self,
                            forCellReuseIdentifier: NewsListTableCell.identifier)
+        tableView.register(NewsListTableViewHeaderView.self, forHeaderFooterViewReuseIdentifier: NewsListTableViewHeaderView.identifier)
         tableView.refreshControl = refreshControl
         return tableView
     }()
